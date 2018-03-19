@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jQuery/jquery311.min.js"></script>
+</head>
+<body>
+
+<a href="#" disabled id="btn">des btn</a>
+<button id="ff">click</button>
+
+
+<script>
+
+    $('#ff').click(function() {
+        $('#btn').prop('disabled', function(i, v) {
+
+            console.log(this);
+
+            return !v;
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td><input type="text" name="name"></td>
+        <td>
+            <button class="btn">Save</button>
+        </td>
+    </tr>
+</table>
+
+<textarea id="textbox">Type something here</textarea>
+<button id="create">Create file</button>
+<a download="info.txt" id="downloadlink" style="display: none">Download</a>
+
+</body>
+<script>
+    //console.log(new window.URL('http://tanvirpro.com:2082/'));
+    (function () {
+        var textFile = null,
+            makeTextFile = function (text) {
+                var data = new Blob([text], {type: 'text/plain'});
+
+                // If we are replacing a previously generated file we need to
+                // manually revoke the object URL to avoid memory leaks.
+                if (textFile !== null) {
+                    window.URL.revokeObjectURL(textFile);
+                }
+
+                textFile = window.URL.createObjectURL(data);
+
+                alert(textFile);
+                console.log(data);
+
+                return textFile;
+            };
+
+
+        var create = document.getElementById('create'),
+            textbox = document.getElementById('textbox');
+
+        create.addEventListener('click', function () {
+            var link = document.getElementById('downloadlink');
+            link.href = makeTextFile(textbox.value);
+            link.style.display = 'block';
+        }, false);
+    })();
+
+
+
+
+
+
+
+
+
+
+    var btn = document.querySelector('button');
+    btn.onclick = function () {
+        var inp = document.querySelector('input');
+        alert(inp.value);
+    };
+</script>
+</html>

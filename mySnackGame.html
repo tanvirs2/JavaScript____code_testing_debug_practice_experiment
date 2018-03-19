@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<script>
+    var div = document.createElement('div');
+    div.style.cssText =
+        'width: 10px;\n' +
+        'height: 10px;\n' +
+        'background: blue;' +
+        'position: absolute;\n';
+    document.body.appendChild(div);
+
+    var divMoveIntV = setInterval(divMove, 8);
+    var movingDivLeft = 0;
+    var movingDivRight = 0;
+    var movingDivUp = 0;
+    var movingDivDown = 0;
+    function divMove() {
+        //div.style.left = movingDiv+'px';
+        //console.log(movingDiv);
+
+        document.onkeydown = function (e) {
+            var abc = e.keyCode;
+            if (abc == 37) {
+                movingDivLeft+=5;
+                div.style.right = movingDivLeft+'px';
+            }
+            if (abc == 38) {
+                movingDivUp+=5;
+                div.style.bottom = movingDivUp+'px';
+            }
+            if (abc == 39) {
+                movingDivRight+=5;
+                div.style.left = movingDivRight+'px';
+            }
+            if (abc == 40) {
+                movingDivDown+=5;
+                div.style.top = movingDivDown+'px';
+            }
+        };
+        if (movingDiv == screen.availWidth) {
+            clearInterval(divMoveIntV);
+        }
+    }
+
+
+
+</script>
+</html>

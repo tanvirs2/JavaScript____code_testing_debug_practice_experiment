@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jQuery/jquery311.min.js"></script>
+</head>
+<body>
+
+<h2>Hello ! </h2>
+<h2>Hello ! </h2>
+<h2 class="kk"> sdd Hello ! ১ ২৫  26 </h2>
+
+<input type="text" value="sdad ১২৫৪32">
+<span>I m ta ! </span>
+
+
+<script>
+    (function ($) {
+        $.fn.convertBengaliDigit = function () {
+            return this.each(function () {
+                if ($(this).is('input')) {
+                    $(this).val(convDigit($(this).val()));
+                    $(this).keyup(function () {
+                        $(this).val(convDigit($(this).val()));
+                    });
+                }else {
+                    $(this).text(convDigit($(this).text()));
+                }
+                function convDigit(digit) {
+                    return digit.replace(/[০-৯]/g, function (substring) {
+                        return substring.charCodeAt(0) - 2534;
+                    });
+                }
+            });
+        }
+    }(jQuery));
+
+
+
+
+    $('.kk').convertBengaliDigit();
+    $('input').convertBengaliDigit();
+
+
+    /*(function ($) {
+
+            $.fn.myPlugin = function (options) {
+
+                var settings = $.extend({
+                    color: 'red',
+                    done: null
+                }, options);
+
+                return this.each(function () {
+                    $(this).css('color', settings.color);
+                    if ($.isFunction(settings.done)) {
+                        settings.done.call(this);
+                    }
+                    console.log($(this).text());
+                });
+            };
+
+        }(jQuery));
+
+        $('.kk').myPlugin({
+            color: 'green',
+            done: function () {
+                console.log('done');
+            }
+        });*/
+
+
+    String.prototype.toBengaliDigit = function () {
+        return this.replace(/[০-৯]/g, function (substring) {
+            return substring.charCodeAt(0) - 2534;
+        });
+    };
+
+    var st = 'dsa ৫৯৮৬৩৭৪১২০ ';
+
+    st = st.toBengaliDigit();
+    //console.log(st);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function parseBengali(){
+        var yas ="১২৩৪৫৬৭৮৯০";
+        yas = (yas.replace(/[٠١٢٣٤٥٦٧٨٩]/g, function (d) {
+                return d.charCodeAt(0) - 2534;
+            })
+        );
+        //console.log(yas);
+    }
+
+    var str = '৬';
+    str = str.charCodeAt() - 2534;
+    //str = String.fromCharCode(1638, 1639, 65);
+    //console.log(str);
+
+    //parseBengali();
+
+
+
+
+    String.prototype.toIndiaDigits= function(){
+        var id= ['০','১','২','৩','৪','৫','৬','৭','৮','৯'];
+        return this.replace(/[০-৯]/g, function(w){
+            console.log(w);
+            return id[+w]
+        });
+    };
+
+    var S='The year 2009 ১২৩৪৫৬৭৮৯০ has only 365 days';
+    //console.log(S.toIndiaDigits());
+
+
+</script>
+
+</body>
+</html>

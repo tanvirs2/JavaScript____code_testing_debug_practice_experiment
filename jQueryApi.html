@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jQuery/jquery311.min.js"></script>
+</head>
+<style>
+    .my-div {
+        color: white;
+        background: red;
+    }
+    .verti {
+        border-left: thick solid red;
+    }
+</style>
+<body>
+
+<div class="vertit" style="width: 100px; height: 100px;">
+    <div style="width: 100%; background: #686868; height: 50%; transform: rotate(45deg)"></div>
+</div>
+
+<ul>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+
+<ul>
+    <li id="a">a</li>
+    <li id="b">b</li>
+    <li id="c">c</li>
+</ul>
+
+<button>Click</button>
+
+<div class="tclass">
+    i m from bangladesh
+</div>
+<div id="mID">
+    i m from India
+</div>
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+
+
+        $('button').click(function () {
+            $.each(['a', 'b', 'c'], function () {
+                $('#'+this).hide(2000);
+            });
+        });
+
+        $.each(['a', 'b', 'c'], function (i, l) {
+            //alert(i +' : '+ l);
+        });
+        $.each({ name: 'John', lang: 'JS'}, function (i, l) {
+            //alert(i +' : '+ l);
+        });
+    });
+    /*(function () {
+        var sub$ = jQuery.sub();
+        sub$.fn.myMethod = function () {
+            alert('dsa');
+        };
+
+        $('div').click(function () {
+
+        });
+
+    })();*/
+    $(document).ready(function () {
+        $.when('fsdd').then(function (ffd) {
+           // alert(ffd);
+        });
+
+        $('button').click(function () {
+            //console.log(sdf);
+            console.log(window);
+            //console.log($('div', this));
+            $('div', this).addClass('ccc');
+            //alert($.now());
+
+        });
+
+        $('button').click(function () {
+            $('div').toggleClass('my-div');
+        });
+
+        $('div').each(function (ind, domEl) {
+            $(domEl).css('color', 'green');
+            if ($(this).is('.tclass')) {
+                $(this).css('color', 'red');
+            }
+        });
+
+        $('li').each(function (ind) {
+            //alert(ind+1 + ' | '+ $(this).text());
+            if (ind == 1) {
+                this.style.color = 'blue';
+                //alert('asd');
+            }
+        });
+    });
+</script>

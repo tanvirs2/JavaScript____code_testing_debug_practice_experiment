@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iziModalTest</title>
+    <script src="js/jQuery/jquery311.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css">
+</head>
+<body>
+<button class="trigger" data-iziModal-open="#modal-one">Open First</button>
+<!--<div>
+    &lt;!&ndash;<img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">&ndash;&gt;
+    <div style="display: inline">
+        <img width="300" alt="Angular Logo" src="http://www.imgworlds.com/wp-content/themes/IMG/img/phase3/welcome/trex.png">
+    </div>
+    <div style="display: inline-block">asdsad</div>
+</div>-->
+<style>
+    div.welcome-page {
+        width: 100%;
+        border: 1px solid gray;
+    }
+
+    .welcome-page header, footer {
+        padding: 1em;
+        color: white;
+        background-color: black;
+        clear: left;
+        text-align: center;
+    }
+
+    .welcome-page span {
+        float: left;
+        max-width: 160px;
+        margin: 0;
+        padding: 1em;
+    }
+
+
+    .welcome-page article {
+        margin-left: 170px;
+        border-left: 1px solid gray;
+        padding: 1em;
+        overflow: hidden;
+    }
+</style>
+
+
+<div class="welcome-page">
+
+    <header>
+        <h1>City Gallery</h1>
+    </header>
+
+    <span>
+        <img width="100" alt="Angular Logo" src="http://www.imgworlds.com/wp-content/themes/IMG/img/phase3/welcome/trex.png">
+    </span>
+
+    <article>
+        <h1>London</h1>
+        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    </article>
+
+    <footer>Copyright © W3Schools.com</footer>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal-one" class="iziModal" data-izimodal-title="Product I" data-izimodal-subtitle="U$ 99,99">
+
+</div>
+<div id="modal-two" class="iziModal" data-izimodal-title="Product II" data-izimodal-subtitle="U$ 99,99">
+    <img src="http://www.everymac.com/images/other_images/iphone-6-front-back-side-gray.jpg" alt=""/>
+</div>
+<div id="modal-three" class="iziModal" data-izimodal-title="Product III" data-izimodal-subtitle="U$ 99,99">
+    <img src="https://i.mlcdn.com.br/1500x1500/iphone-5s-apple-32gb-cinza-espacial-tela-4-retinacamera-8mp-ios-9-proc.-m7-touch-id-155526000.jpg" alt=""/>
+</div>
+<div id="modal-four" class="iziModal" >
+    <p>What is this</p>
+</div>
+
+<script>
+    $(function () {
+
+        $(".iziModal").iziModal({
+            width: 700,
+            radius: 5,
+            padding: 20,
+            group: 'products',
+            loop: true
+        });
+    })
+</script>
+</body>
+</html>

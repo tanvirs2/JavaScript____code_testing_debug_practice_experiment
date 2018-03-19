@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jQuery/jquery311.min.js" type="text/javascript"></script>
+    <!--<div id="element">Testing</div>-->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+</head>
+<body>
+<!--
+01787675100
+
+t4-17-02467
+-->
+
+</body>
+
+
+<script>
+
+    function myBird(birdHrPos, birdActSize, stopPos, topPos, loopTrue) {
+        loopTrue = false;
+        var birdObj = new Image();
+        birdObj.src = 'gif/eagle.gif';
+        //console.log(birdObj);
+        birdObj.style.top = topPos+'px';
+        birdObj.style.left = screen.availWidth-birdHrPos+'px';
+        birdObj.style.position = 'absolute';
+        var birdSize = birdObj.width = birdActSize;
+        document.body.appendChild(birdObj);
+
+        var stopSlowBirdPos = setInterval(slowBird, 20);
+        function slowBird() {
+            birdSize--;
+            birdObj.width = birdSize;
+            if (birdSize==stopPos) {
+                //typeof rightTrue != 'undefined'
+                if (typeof loopTrue != 'undefined') {
+                    birdSize = birdObj.width = birdActSize;
+                } else {
+                    clearInterval(stopSlowBirdPos);
+                }
+            }
+        }
+    }
+
+    //myBird(birdHrPos, birdActSize, stopPos, topPos, loopTrue)
+    myBird(850, 500, 10, 500);
+    myBird(650, 150, 3, 500);
+    myBird(700, 270, 3, 600);
+    myBird(700, 20, 9, 700);
+    myBird(700, 250, 3, 400);
+    myBird(630, 300, 0, 400, true);
+    myBird(800, 350, 0, 400, true);
+    myBird(600, 400, 0, 400, true);
+    myBird(800, 600, 0, 500, true);
+
+
+    function playAudio(src, volume) {
+        var audio = new Audio(src);
+        audio.play();
+        audio.volume = volume;
+        audio.loop = true;
+    }
+
+    //playAudio('audio/looperman-piano-quality-another-silent-night.wav', 1.0);
+    //playAudio('audio/looperman-piano-quality-another-silent-night.wav', 0.2);
+    playAudio('audio/nightSound.mp3', 0.5);
+    playAudio('audio/nightSound-2.mp3', 0.3);
+
+
+    document.body.style.cssText =
+        'position: relative;\n' +
+        'background: url("img/moon_clouds_sky_black-and-white_6442_1920x1200.jpg");\n' +
+        'width: '+screen.availWidth+'px;\n' +
+        'height: '+screen.availHeight+'px;\n' +
+        'overflow: hidden;\n' +
+        'position: relative;';
+
+    function cloudLoop(speed, img, bottmPos, rightTrue) {
+        var cloud = document.createElement('div');
+        cloud.style.cssText =
+            'width: 700px;' +
+            'height: 400px;' +
+            'top: '+ bottmPos +'px;' +
+            'position: absolute;' +
+            'background: url('+img+') no-repeat;' +
+            'background-size: contain;';
+        document.body.appendChild(cloud);
+
+        setInterval(cloudFunc, speed);
+
+        var cloudPos = -600;
+        function cloudFunc() {
+            cloudPos++;
+            if (cloudPos == screen.availWidth) {
+                cloudPos = -600;
+            }
+            //console.log(rightTrue);
+            if (typeof rightTrue != 'undefined') {
+                cloud.style.right = cloudPos + 'px';
+            } else {
+                cloud.style.left = cloudPos + 'px';
+            }
+        }
+    }
+
+
+    //cloudLoop(speed, img, bottmPos, rightTrue)
+    cloudLoop(27, "img/cloud2.png", 300);
+    cloudLoop(15, "img/cloud5.png", 400);
+    cloudLoop(65, "img/cloud3.png", 200);
+    cloudLoop(53, "img/cloud4.png", 350);
+    cloudLoop(57, "img/cloud7.png", 150);
+    //cloudLoop(35, "img/cloud5.png", 300);
+    cloudLoop(70, "img/cloud4.png", 300, true);
+    cloudLoop(50, "img/cloud5.png", 450, true);
+
+
+    //var count = 0;
+    function myStar(speed, height, width, topPos, widthPos) {
+        //count++;
+        var speed = Math.floor((Math.random() * speed) + speed+10);
+        //var height = Math.floor((Math.random() * height) + height+10);
+        var width = Math.floor((Math.random() * width) + 1);
+        var topPos = Math.floor((Math.random() * topPos) + topPos+10);
+        var widthPos = Math.floor((Math.random() * widthPos) + widthPos+10);
+
+        var boxElement = document.createElement('div');
+        boxElement.style.cssText =
+            'top: '+topPos+'px; ' +
+            'left:'+widthPos+'px;' +
+            'height:'+height+'px; ' +
+            'width:'+width+'px; ' +
+            'background:white; ' +
+            'position: absolute; ' +
+            'transform: rotate(40deg)';
+
+        document.body.appendChild(boxElement);
+
+        var frmInt = setInterval(frm, speed);
+
+        function frm() {
+            if (topPos == screen.availHeight) {
+                clearInterval(frmInt);
+                boxElement.parentNode.removeChild(boxElement);
+            }
+            topPos++;
+            widthPos++;
+            boxElement.style.top = topPos + 'px';
+            boxElement.style.left = widthPos + 'px';
+        }
+    }
+    setInterval(loopFunc, 1500);
+    //myStar(speed, height, width, topPos, widthPos)
+    function loopFunc() {
+        myStar(1, 1, 2, 10, 110);
+        myStar(1, 1, 2, -100, 210);
+        myStar(1, 1, 2, -10, 110);
+        myStar(1, 1, 2, -10, -110);
+        myStar(1, 1, 2, -10, -10);
+        myStar(2, 1, 3, -20, 120);
+        myStar(2, 1, 3, -20, 125);
+        myStar(2, 1, 3, -20, 120);
+        myStar(1, 1, 6, 20, 320);
+        myStar(3, 1, 4, -30, 130);
+        myStar(15, 2, 5, -40, 100);
+        myStar(4, 2, 5, -40, 900);
+        myStar(2, 2, 20, -40, 850);
+        myStar(2, 2, 5, -40, 850);
+        myStar(10, 2, 20, -40, 850);
+        myStar(4, 2, 5, -40, 600);
+        myStar(4, 2, 5, -40, 500);
+        myStar(4, 2, 5, -40, 1000);
+        myStar(1, 1, 5, -40, 1300);
+        myStar(4, 2, 5, -40, 1200);
+        myStar(2, 2, 5, -40, 1000);
+        myStar(5, 2, 6, -20, 150);
+        myStar(6, 2, 7, -80, -160);
+        myStar(7, 2, 8, -75, 170);
+        myStar(8, 2, 9, -35, 600);
+        myStar(2, 2, 9, -35, -600);
+        myStar(2, 2, 5, 35, -500);
+        myStar(9, 2, 10, 50, -190);
+        myStar(9, 2, 10, -50, 290);
+        myStar(9, 2, 10, -50, -290);
+        myStar(10, 2, 11, 60, 130);
+    }
+
+    loopFunc();
+
+
+
+    //console.log(count);
+    //console.log(screen);
+
+    /*var i = 0;
+    $(document).ready(function () {
+        $('body').click(function () {
+            console.log(count);
+        });
+    });
+*/
+    /*  var input = document.createElement('input');
+        input.value = 'I am Tanvir';
+        input.style.cssText = 'color: red; background: green';
+        //document.getElementsByTagName('body')[0].appendChild(input);
+        document.body.appendChild(input);*/
+
+
+    /*var div = document.createElement('div');
+    div.innerHTML = 'I am Tanvir';
+
+    document.body.appendChild(div);*/
+
+
+
+    //alert(TTT);
+
+    /*function myFunction() {
+        window.document.body.insertAdjacentHTML( 'afterbegin', '<div id="myID" style="color:blue;"> With some data...</div>' );
+    }
+    function addElement(){
+        var elemDiv = document.createElement('div');
+        elemDiv.style.cssText = 'width:100%;height:10%;background:rgb(192,192,192);';
+        elemDiv.innerHTML = 'Added element with some data';
+        window.document.body.insertBefore(elemDiv, window.document.body.firstChild);
+        // document.body.appendChild(elemDiv); // appends last of that element
+    }
+    function addCSS() {
+        window.document.getElementsByTagName("style")[0].innerHTML += ".mycss {text-align:center}";
+    }
+
+    myFunction();
+    addElement();
+    addCSS();*/
+
+
+
+    /*var div = document.createElement('div');
+    div.innerHTML = 'hello';
+    //console.log(div);
+    div.style.cssText = 'background: Red; color: white';
+    document.getElementsByTagName('body')[0].appendChild(div);
+    //document.body.appendChild(div);
+
+    console.log(document);*/
+
+
+
+    //document.body.innerHTML = div;
+    /*var el = document.getElementById('element');
+    var body = document.getElementsByTagName('body');
+    el.innerHTML = '<p><a id="clickme" href="#">Click me</a></p>';
+    document.getElementById('clickme').onclick = function (e) {
+        e.preventDefault();
+        document.body.innerHTML +='<div style="position:absolute;width:100%;height:100%;opacity:0.3;z-index:100;background:#000;"></div>';
+    }*/
+</script>
+
+</html>

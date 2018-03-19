@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86114a9c-d3e8-42d4-af06-455d9a76958f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="table.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubbleSort.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bubbleSort.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numberConv.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numberConv.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excelCreate.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/excelCreate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1521088966070" expanded="true" signature="1988:2153" ph="..." />
+                <marker date="1521088966070" expanded="true" signature="2195:2346" ph="..." />
+                <marker date="1521088966070" expanded="true" signature="4014:4455" ph="..." />
+                <marker date="1521088966070" expanded="true" signature="4042:4068" ph="..." />
+                <marker date="1521088966070" expanded="true" signature="4042:4405" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Advanced PHP/HTML Layout/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_instanceof.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_instanceof.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iziModal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iziModal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eagle.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gif/eagle.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blob2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blob2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>game_loop</find>
+      <find>length</find>
+      <find>cssText</find>
+      <find>ready =</find>
+      <find>append(</find>
+      <find>background-size</find>
+      <find>document.body</find>
+      <find>style.top</find>
+      <find>.style.left</find>
+      <find>stopSlowBirdPos</find>
+      <find>tan</find>
+      <find>undefined</find>
+      <find>birdHrPos</find>
+      <find>myForm</find>
+      <find>img</find>
+      <find>console</find>
+      <find>trigger</find>
+      <find>nav</find>
+      <find>data-step=</find>
+      <find>declare const</find>
+      <find>prototype:</find>
+      <find>template</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/New folder (5)/template/New folder/New folder/index.html" />
+        <option value="$PROJECT_DIR$/iziModal.html" />
+        <option value="$PROJECT_DIR$/hhh.php" />
+        <option value="$PROJECT_DIR$/ab.php" />
+        <option value="$PROJECT_DIR$/intro.php" />
+        <option value="$PROJECT_DIR$/table.html" />
+        <option value="$PROJECT_DIR$/bubbleSort.js" />
+        <option value="$PROJECT_DIR$/bubbleSort.html" />
+        <option value="$PROJECT_DIR$/numberConv.html" />
+        <option value="E:/Advanced PHP/HTML Layout/home.html" />
+        <option value="$PROJECT_DIR$/excelCreate.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jQuery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQuery" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\jQuery\js\intro" />
+      <recent name="E:\xampp\htdocs\jQuery\js" />
+      <recent name="E:\xampp\htdocs\jQuery" />
+      <recent name="E:\xampp\htdocs\jQuery\gif" />
+      <recent name="E:\xampp\htdocs\jQuery\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\jQuery\css\intro" />
+      <recent name="E:\xampp\htdocs\jQuery\gif" />
+      <recent name="E:\xampp\htdocs\jQuery\audio" />
+      <recent name="E:\xampp\htdocs\jQuery\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="jQueryApi.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jQuery/jQueryApi.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jQueryApi.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86114a9c-d3e8-42d4-af06-455d9a76958f" name="Default" comment="" />
+      <created>1510580142287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510580142287</updated>
+      <workItem from="1510580143483" duration="5725000" />
+      <workItem from="1510621338110" duration="1227000" />
+      <workItem from="1510626666373" duration="4641000" />
+      <workItem from="1510638011479" duration="138000" />
+      <workItem from="1510638234996" duration="9000" />
+      <workItem from="1510653505036" duration="56000" />
+      <workItem from="1510724800012" duration="931000" />
+      <workItem from="1510738609660" duration="2159000" />
+      <workItem from="1510792937085" duration="8000" />
+      <workItem from="1510964822187" duration="3308000" />
+      <workItem from="1510974867624" duration="682000" />
+      <workItem from="1511009193344" duration="946000" />
+      <workItem from="1511010424241" duration="415000" />
+      <workItem from="1511014775280" duration="6346000" />
+      <workItem from="1511049819332" duration="7142000" />
+      <workItem from="1511061942463" duration="248000" />
+      <workItem from="1511064522356" duration="3794000" />
+      <workItem from="1511136344567" duration="552000" />
+      <workItem from="1511137686225" duration="1669000" />
+      <workItem from="1511153930545" duration="3996000" />
+      <workItem from="1511170306094" duration="12000" />
+      <workItem from="1511193233957" duration="6258000" />
+      <workItem from="1511240448889" duration="8000" />
+      <workItem from="1511310526943" duration="19704000" />
+      <workItem from="1511355953709" duration="4625000" />
+      <workItem from="1511395708836" duration="2186000" />
+      <workItem from="1511407167246" duration="7983000" />
+      <workItem from="1511532264907" duration="3363000" />
+      <workItem from="1511585629429" duration="42000" />
+      <workItem from="1512007727949" duration="6045000" />
+      <workItem from="1512014117982" duration="141000" />
+      <workItem from="1512014442814" duration="1067000" />
+      <workItem from="1512026637285" duration="450000" />
+      <workItem from="1512034754942" duration="3794000" />
+      <workItem from="1512090852924" duration="5015000" />
+      <workItem from="1512143403755" duration="821000" />
+      <workItem from="1512177003510" duration="1916000" />
+      <workItem from="1512195820252" duration="715000" />
+      <workItem from="1512218962163" duration="3635000" />
+      <workItem from="1512261816556" duration="24901000" />
+      <workItem from="1512290615366" duration="1038000" />
+      <workItem from="1512309106997" duration="2938000" />
+      <workItem from="1512347350897" duration="1193000" />
+      <workItem from="1512371076315" duration="2120000" />
+      <workItem from="1512449382487" duration="331000" />
+      <workItem from="1514888158327" duration="108000" />
+      <workItem from="1514893521288" duration="1166000" />
+      <workItem from="1515400264393" duration="10565000" />
+      <workItem from="1515472622732" duration="10000000" />
+      <workItem from="1515595359348" duration="855000" />
+      <workItem from="1515895095146" duration="5390000" />
+      <workItem from="1515923301675" duration="710000" />
+      <workItem from="1515934763006" duration="363000" />
+      <workItem from="1515935261134" duration="5907000" />
+      <workItem from="1515990047158" duration="488000" />
+      <workItem from="1516013989425" duration="2339000" />
+      <workItem from="1516023986819" duration="164000" />
+      <workItem from="1516075439528" duration="605000" />
+      <workItem from="1516156458296" duration="7630000" />
+      <workItem from="1517970397984" duration="3698000" />
+      <workItem from="1518006724659" duration="8207000" />
+      <workItem from="1518022325183" duration="56000" />
+      <workItem from="1518096394065" duration="1106000" />
+      <workItem from="1518237664881" duration="546000" />
+      <workItem from="1518344133398" duration="3390000" />
+      <workItem from="1518368097388" duration="12000" />
+      <workItem from="1518433294827" duration="1527000" />
+      <workItem from="1518435204415" duration="797000" />
+      <workItem from="1518494208209" duration="319000" />
+      <workItem from="1518510748822" duration="16000" />
+      <workItem from="1518517900106" duration="8232000" />
+      <workItem from="1518571171075" duration="14000" />
+      <workItem from="1518574831786" duration="3587000" />
+      <workItem from="1518591094433" duration="9000" />
+      <workItem from="1520263284249" duration="5214000" />
+      <workItem from="1520303518946" duration="6746000" />
+      <workItem from="1520556698181" duration="2134000" />
+      <workItem from="1520660506121" duration="102000" />
+      <workItem from="1520873137509" duration="1617000" />
+      <workItem from="1520902518971" duration="8610000" />
+      <workItem from="1520929124427" duration="9598000" />
+      <workItem from="1520959294332" duration="1583000" />
+      <workItem from="1520962794042" duration="6085000" />
+      <workItem from="1520992430574" duration="1850000" />
+      <workItem from="1521023197397" duration="21349000" />
+      <workItem from="1521088926002" duration="494000" />
+      <workItem from="1521432885120" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="287494000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21016692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="80" column="34" lean-forward="false" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetDream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/watchGuard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/tsserverlibrary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965467">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Advanced PHP/HTML Layout/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numberConv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8438" column="13" lean-forward="false" selection-start-line="8438" selection-start-column="13" selection-end-line="8438" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excelCreate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1521088966070" expanded="true" signature="1988:2153" ph="..." />
+            <marker date="1521088966070" expanded="true" signature="2195:2346" ph="..." />
+            <marker date="1521088966070" expanded="true" signature="4014:4455" ph="..." />
+            <marker date="1521088966070" expanded="true" signature="4042:4068" ph="..." />
+            <marker date="1521088966070" expanded="true" signature="4042:4405" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

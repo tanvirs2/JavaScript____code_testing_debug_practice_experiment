@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jQuery/jquery311.min.js"></script>
+</head>
+<body>
+<form action="" id="myForm" method="post">
+    <input name="gg" type="text">
+    <input type="file" name="ff">
+    <button type="submit">sv</button>
+</form>
+
+<a href="#" class="a_body" style="width: 100px; border: #ff0c0e solid 1px; display: block">
+    <span class="body" style="background: #151274; color: #ffffff;">My Span</span>
+</a>
+
+<a href="#" class="a_body" style="width: 100px; border: #ff0c0e solid 1px; display: block">
+    <span class="body_r" style="background: #151274; color: #ffffff;">My agdym</span>
+</a>
+
+<br>
+
+<span class="" id="body_id" style="background: #151274; color: #ffffff;">My Span 2</span>
+
+
+<img src="" id="img" alt="">
+
+<textarea name="" id="tx" cols="30" rows="10"></textarea>
+
+<input type="file" id="gg">
+<div id="widthChck" style="width: 100px">Hello</div>
+<script>
+    function onResize() {
+        //var widthChck = $('#widthChck');
+        var widthChck = document.getElementById('widthChck');
+        var width = widthChck.offsetWidth,
+            height = window.innerHeight;
+        //alert(width);
+        console.log(width+' | '+height);
+        console.log(width);
+    }
+    window.addEventListener('resize', onResize, false);
+
+
+
+    var body_id = document.getElementById('body_id');
+    //console.log(body_id);
+
+    /*$('a').click(function () {
+        //alert('das');
+        //$(this).find('.body').click();
+        console.log($(this).children('.body').length);
+
+        if ($(this).children('.body').length > 0) {
+            //alert('dsa');
+            $(this).children('.body').click();
+        }
+    });
+
+    $('.body').click(function () {
+        alert('das');
+    });*/
+
+    $('#body_id').click(function () {
+        //this.style.backgroundColor;
+        console.log(this);
+        console.log($(this));
+        //console.log($(this).children());
+    });
+
+    $('a').click(function () {
+        //this.style.backgroundColor;
+        //console.log(this);
+        //console.log($(this));
+        if ($(this).children('.body').length > 0) {
+            console.log($(this)[0].firstElementChild.style.backgroundColor);
+        }
+
+        //console.log($(this).children('.body'));
+    });
+
+
+    $('#gg').on('change', function(event) {
+        //console.log($(this));
+        var hh = document.getElementById('gg').files[0];
+        console.log(hh);
+        $('#img').attr('src', (window.URL || window.webkitURL).createObjectURL(this.files[0]));
+        var data = new FormData();
+        //data.append('file', (window.URL || window.webkitURL).createObjectURL(this.files[0]));
+    });
+
+
+
+
+    // window.addEventListener('paste', ... or
+    document.onpaste = function(event){
+        var items = (event.clipboardData || event.originalEvent.clipboardData).items;
+        //console.log(JSON.stringify(items)); // will give you the mime types
+        var file = items[0].getAsFile();
+        console.log(file);
+        for (index in items) {
+            var item = items[index];
+            if (item.kind === 'file') {
+                var blob = item.getAsFile();
+                var reader = new FileReader();
+                reader.onload = function(event){
+                    //console.log(event.target.result);
+                    var imgData = event.target.result;
+                    var img = document.getElementById('img');
+                    //img.src = imgData;
+                    img.src = file.name;
+                    alert(file.name);
+                }; // data url!
+                reader.readAsDataURL(blob);
+            }
+        }
+    }
+
+
+    // defining constructors
+    function C() {}
+    function D() {}
+
+    var o = new C();
+
+    // true, because: Object.getPrototypeOf(o) === C.prototype
+    o instanceof C;
+
+
+    C.prototype = {};
+    var o2 = new C();
+
+    o2 instanceof C; // true
+
+    //alert(C.prototype instanceof Object);
+    //alert(o2 instanceof C);
+
+    D.prototype = new C();
+
+    var o3 = new D();
+    //alert(o3 instanceof C);
+    //alert(({}) instanceof Object);
+
+
+</script>
+</body>
+</html>

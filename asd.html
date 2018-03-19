@@ -1,0 +1,126 @@
+<html>
+<head>
+
+</head>
+<body>
+
+</body>
+
+<script>
+
+    var totalNumberofRows = 4, tan = 100;
+    var output="";
+
+    /*for (var i = 1; i <= totalNumberofRows; i++) {
+        tan--;
+        for (var j = 1; j <= i; j++) {
+            output+=j + "";
+
+
+            console.log(tan);
+            //alert(tan);
+        }
+        document.write(output+'<br>');
+        output="";
+    }*/
+
+    tan = 10;
+    var inVl = setInterval(function () {
+        tan--;
+        var inVl2 = setInterval(function () {
+            document.write(tan + ' <br> ');
+            if (tan==0) {
+                clearInterval(inVl);
+                clearInterval(inVl2);
+            }
+        }, 100);
+        document.write('<hr>');
+    }, 100);
+
+
+    /*function myBird(birdHrPos, birdActSize, stopPos, topPos, loopTrue) {
+        loopTrue = false;
+        var birdObj = new Image();
+        birdObj.src = 'gif/eagle.gif';
+        //console.log(birdObj);
+        birdObj.style.top = topPos+'px';
+        birdObj.style.left = screen.availWidth-birdHrPos+'px';
+        birdObj.style.position = 'absolute';
+        var birdSize = birdObj.width = birdActSize;
+        document.body.appendChild(birdObj);
+
+        /!*var stopSlowBirdPos = setInterval(slowBird, 20);
+        var movingBirdAnm;
+        var slowBirdPos = 20;
+        function slowBird() {
+            //slowBirdPos+5;
+            birdObj.width = birdSize--;
+            //alert(slowBirdPos);
+            //movingBirdAnm = setInterval(movingBird, slowBirdPos);
+            if (birdSize == 0) {
+                //clearInterval(movingBirdAnm);
+                clearInterval(stopSlowBirdPos);
+            }
+        }*!/
+
+
+        var inVl = setInterval(function () {
+            birdSize--;
+            var inVl2 = setInterval(function () {
+                birdObj.width = birdSize;
+                //console.log(birdSize);
+                if (birdSize==stopPos) {
+                    //typeof rightTrue != 'undefined'
+                    if (typeof loopTrue != 'undefined') {
+                        birdSize = birdObj.width = birdActSize;
+                    } else {
+                        clearInterval(inVl);
+                        clearInterval(inVl2);
+                    }
+
+                }
+            }, 20);
+        }, 20);
+    }
+
+    //myBird(birdHrPos, birdActSize, stopPos, topPos, loopTrue)
+    /!*myBird(650, 150, 3, 500);
+    myBird(700, 250, 3, 600);
+    myBird(700, 20, 9, 700);
+    myBird(750, 20, 9, 400);
+    myBird(700, 250, 3, 400);*!/
+    myBird(630, 300, 0, 400, true);
+    myBird(800, 350, 0, 400, true);
+    myBird(600, 400, 0, 400, true);
+    myBird(800, 600, 0, 500, true);*/
+
+
+
+
+    /*var i = 100, j = -0.9, sl = 0;
+    var intVal = setInterval(function () {
+        j++;
+        i+=j;
+
+        if (i>0) {
+            document.write(++sl+'| '+ Math.round(i) + '<br>');
+        }
+    }, 500);*/
+
+
+    /*var i = 100, j = 1, k=1; sl = 0;
+    var intVal = setInterval(function () {
+        j++;
+        //k+=j;
+        if (j == ++k) {
+            i--;
+        }
+
+        if (i>0) {
+            document.write(++sl+'| '+ Math.round(i) + '<br><br>');
+        }
+    }, 500);*/
+
+</script>
+
+</html>

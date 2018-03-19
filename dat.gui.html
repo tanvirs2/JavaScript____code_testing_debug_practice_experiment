@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--NewsTech Xampp-->
+    <!--xampp version 5.5.37-->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/dat.gui.js"></script>
+    <style>
+        #aniDiv {
+            display: block;
+            width: 500px;
+            height: 500px;
+            position: relative;
+            border: 1px solid black;
+        }
+        #anim {
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            border: 1px solid red;
+            background: #959afd;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+<div id="aniDiv">
+    <div id="anim"></div>
+</div>
+
+<h3 id="hel">Hello World</h3>
+
+<script>
+    function log(data) { console.log(data);}
+
+    var posX = 0;
+    var posY = 0;
+    var roundX = 100;
+    var roundY = 100;
+    var delta = 0;
+    var anim;
+
+    function init() {
+        anim = document.getElementById('anim');
+        animate();
+    }
+
+    function animate() {
+        delta += 0.1;
+
+        posX = 400 + (Math.sin(delta)*roundX) + 'px';
+        posY = 200 + (Math.cos(delta)*roundY) + 'px';
+
+        //log();
+
+        anim.style.left = posX;
+        anim.style.top = posY;
+
+        requestAnimationFrame(animate);
+    }
+
+    init();
+
+
+
+
+
+
+    function amaF(call) {
+        var myArr = { 'm_name': 'tan', 'm_age': '27' };
+        call(myArr, 'heelo');
+    }
+
+    var bb;
+
+    function ab(a, n) {
+        //alert(n);
+        bb = 'Tanvir';
+    }
+
+    //ab();
+
+    amaF(ab);
+
+    //amaF(function () {
+        
+    //});
+
+
+    //alert(bb);
+
+
+    /*function myFunk(call) {
+        var bng = {};
+        bng.name = 'tanvir';
+        bng.age = '27';
+        return bng;
+    }
+
+    myFunk(function () {
+        alert(this.age);
+    });*/
+
+    //var myData = new myFunk();
+    //console.log(myData.age);
+
+    var FizzyText = function() {
+        this.message = 'dat.gui';
+        this.message2 = 'dat.gui';
+        this.opacity = 0.8;
+        this.roundX = 50;
+        this.roundY = 50;
+        this.displayOutline = false;
+        this.explode = function() {  };
+        this.color = '#fd2312';
+        this.backcolor = '#fdf6fb';
+        // Define render logic ...
+    };
+
+    //roundX
+    //roundy
+    window.onload = function() {
+        var text = new FizzyText();
+        var gui = new dat.GUI();
+        gui.add(text, 'message');
+
+        var div = document.querySelector('#hel');
+        var controllerText = gui.add(text, 'message2');
+        var controllerRoundX = gui.add(text, 'roundX', 0, 500);
+        var controllerRoundY = gui.add(text, 'roundY', 0, 500);
+        var controllerOpacity = gui.add(text, 'opacity', 0, 1);
+        gui.add(text, 'displayOutline');
+        gui.add(text, 'explode');
+        var controllerColor = gui.addColor(text, 'color');
+        var controllerBackColor = gui.addColor(text, 'backcolor');
+
+        controllerRoundX.onChange(function (vv) {
+            roundX = vv;
+        });
+        controllerRoundY.onChange(function (vv) {
+            roundY = vv;
+        });
+
+        controllerText.onChange(function (vv) {
+            div.innerHTML = vv;
+        });
+        controllerOpacity.onChange(function (vv) {
+            div.style.opacity = vv;
+        });
+        controllerColor.onChange(function (vv) {
+            div.style.color = vv;
+        });
+        controllerBackColor.onChange(function (vv) {
+            div.style.backgroundColor = vv;
+        });
+    };
+</script>
+</body>
+</html>
